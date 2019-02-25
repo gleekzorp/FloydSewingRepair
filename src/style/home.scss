@@ -1,0 +1,13 @@
+@import "./colors.scss";
+
+.homeWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: $colorTwo;
+    border-radius: 10px;
+    width: 80vw;
+    padding: 40px;
+    text-align: justify;
+}

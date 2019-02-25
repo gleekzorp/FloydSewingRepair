@@ -1,0 +1,35 @@
+@import "./colors.scss";
+
+.navBarWrapper {
+    display: grid;
+    align-items: center;
+    width: 80vw;
+}
+
+.navBarLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $colorThree;
+    border-radius: 10px;
+}
+
+.navBarLogo h1 {
+    color: $colorFour;
+    font-size: 4rem;
+}
+
+.navBarLinks {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    background-color: $colorOne;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin: 0px;
+}
+
+.navBarLinks a {
+    color: $colorFive;
+}
